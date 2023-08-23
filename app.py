@@ -2,7 +2,7 @@ from docGPT_core import *
 from RVS import *
 from custom import *
 
-set_tokens(OPENAI_TOKEN='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',HF_TOKEN="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")
+set_tokens(OPENAI_TOKEN='',HF_TOKEN="")
 hf_embeddings = Embedding(model_name='sentence-transformers/all-MiniLM-L6-v2', model_type = 'hf')
 openai_embeddings = Embedding(model_type='openai')
 persona = Persona(personality_type='explainer')
